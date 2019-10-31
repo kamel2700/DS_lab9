@@ -204,7 +204,7 @@ rs.config()
 rs.status()
 {
 	"set" : "rs0",
-	"date" : ISODate("2019-10-31T20:49:12.494Z"),
+	"date" : ISODate("2019-10-31T20:53:23.524Z"),
 	"myState" : 1,
 	"term" : NumberLong(3),
 	"syncingTo" : "",
@@ -215,28 +215,28 @@ rs.status()
 	"writeMajorityCount" : 2,
 	"optimes" : {
 		"lastCommittedOpTime" : {
-			"ts" : Timestamp(1572554942, 2),
+			"ts" : Timestamp(1572555202, 1),
 			"t" : NumberLong(3)
 		},
-		"lastCommittedWallTime" : ISODate("2019-10-31T20:49:02.799Z"),
+		"lastCommittedWallTime" : ISODate("2019-10-31T20:53:22.807Z"),
 		"readConcernMajorityOpTime" : {
-			"ts" : Timestamp(1572554942, 2),
+			"ts" : Timestamp(1572555202, 1),
 			"t" : NumberLong(3)
 		},
-		"readConcernMajorityWallTime" : ISODate("2019-10-31T20:49:02.799Z"),
+		"readConcernMajorityWallTime" : ISODate("2019-10-31T20:53:22.807Z"),
 		"appliedOpTime" : {
-			"ts" : Timestamp(1572554942, 2),
+			"ts" : Timestamp(1572555202, 1),
 			"t" : NumberLong(3)
 		},
 		"durableOpTime" : {
-			"ts" : Timestamp(1572554942, 2),
+			"ts" : Timestamp(1572555202, 1),
 			"t" : NumberLong(3)
 		},
-		"lastAppliedWallTime" : ISODate("2019-10-31T20:49:02.799Z"),
-		"lastDurableWallTime" : ISODate("2019-10-31T20:49:02.799Z")
+		"lastAppliedWallTime" : ISODate("2019-10-31T20:53:22.807Z"),
+		"lastDurableWallTime" : ISODate("2019-10-31T20:53:22.807Z")
 	},
-	"lastStableRecoveryTimestamp" : Timestamp(1572554906, 1),
-	"lastStableCheckpointTimestamp" : Timestamp(1572554906, 1),
+	"lastStableRecoveryTimestamp" : Timestamp(1572555142, 1),
+	"lastStableCheckpointTimestamp" : Timestamp(1572555142, 1),
 	"electionCandidateMetrics" : {
 		"lastElectionReason" : "stepUpRequestSkipDryRun",
 		"lastElectionDate" : ISODate("2019-10-31T20:49:02.777Z"),
@@ -265,12 +265,12 @@ rs.status()
 			"health" : 1,
 			"state" : 1,
 			"stateStr" : "PRIMARY",
-			"uptime" : 1124,
+			"uptime" : 1375,
 			"optime" : {
-				"ts" : Timestamp(1572554942, 2),
+				"ts" : Timestamp(1572555202, 1),
 				"t" : NumberLong(3)
 			},
-			"optimeDate" : ISODate("2019-10-31T20:49:02Z"),
+			"optimeDate" : ISODate("2019-10-31T20:53:22Z"),
 			"syncingTo" : "",
 			"syncSourceHost" : "",
 			"syncSourceId" : -1,
@@ -285,29 +285,29 @@ rs.status()
 			"_id" : 1,
 			"name" : "member2:27017",
 			"ip" : "172.31.29.144",
-			"health" : 1,
-			"state" : 2,
-			"stateStr" : "SECONDARY",
-			"uptime" : 1122,
+			"health" : 0,
+			"state" : 8,
+			"stateStr" : "(not reachable/healthy)",
+			"uptime" : 0,
 			"optime" : {
-				"ts" : Timestamp(1572554936, 1),
-				"t" : NumberLong(2)
+				"ts" : Timestamp(0, 0),
+				"t" : NumberLong(-1)
 			},
 			"optimeDurable" : {
-				"ts" : Timestamp(1572554936, 1),
-				"t" : NumberLong(2)
+				"ts" : Timestamp(0, 0),
+				"t" : NumberLong(-1)
 			},
-			"optimeDate" : ISODate("2019-10-31T20:48:56Z"),
-			"optimeDurableDate" : ISODate("2019-10-31T20:48:56Z"),
-			"lastHeartbeat" : ISODate("2019-10-31T20:49:02.782Z"),
+			"optimeDate" : ISODate("1970-01-01T00:00:00Z"),
+			"optimeDurableDate" : ISODate("1970-01-01T00:00:00Z"),
+			"lastHeartbeat" : ISODate("2019-10-31T20:53:21.437Z"),
 			"lastHeartbeatRecv" : ISODate("2019-10-31T20:49:02.817Z"),
 			"pingMs" : NumberLong(0),
-			"lastHeartbeatMessage" : "",
+			"lastHeartbeatMessage" : "Error connecting to member2:27017 (172.31.29.144:27017) :: caused by :: No route to host",
 			"syncingTo" : "",
 			"syncSourceHost" : "",
 			"syncSourceId" : -1,
 			"infoMessage" : "",
-			"configVersion" : 1
+			"configVersion" : -1
 		},
 		{
 			"_id" : 2,
@@ -316,19 +316,19 @@ rs.status()
 			"health" : 1,
 			"state" : 2,
 			"stateStr" : "SECONDARY",
-			"uptime" : 1122,
+			"uptime" : 1373,
 			"optime" : {
-				"ts" : Timestamp(1572554942, 2),
+				"ts" : Timestamp(1572555202, 1),
 				"t" : NumberLong(3)
 			},
 			"optimeDurable" : {
-				"ts" : Timestamp(1572554942, 2),
+				"ts" : Timestamp(1572555202, 1),
 				"t" : NumberLong(3)
 			},
-			"optimeDate" : ISODate("2019-10-31T20:49:02Z"),
-			"optimeDurableDate" : ISODate("2019-10-31T20:49:02Z"),
-			"lastHeartbeat" : ISODate("2019-10-31T20:49:10.783Z"),
-			"lastHeartbeatRecv" : ISODate("2019-10-31T20:49:10.860Z"),
+			"optimeDate" : ISODate("2019-10-31T20:53:22Z"),
+			"optimeDurableDate" : ISODate("2019-10-31T20:53:22Z"),
+			"lastHeartbeat" : ISODate("2019-10-31T20:53:22.819Z"),
+			"lastHeartbeatRecv" : ISODate("2019-10-31T20:53:22.886Z"),
 			"pingMs" : NumberLong(0),
 			"lastHeartbeatMessage" : "",
 			"syncingTo" : "member1:27017",
@@ -340,17 +340,18 @@ rs.status()
 	],
 	"ok" : 1,
 	"$clusterTime" : {
-		"clusterTime" : Timestamp(1572554942, 2),
+		"clusterTime" : Timestamp(1572555202, 1),
 		"signature" : {
 			"hash" : BinData(0,"AAAAAAAAAAAAAAAAAAAAAAAAAAA="),
 			"keyId" : NumberLong(0)
 		}
 	},
-	"operationTime" : Timestamp(1572554942, 2)
+	"operationTime" : Timestamp(1572555202, 1)
 }
 
 
- rs.config()
+
+rs.config()
 {
 	"_id" : "rs0",
 	"version" : 1,
