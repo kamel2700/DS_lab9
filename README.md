@@ -164,8 +164,7 @@ rs.config()
 			"buildIndexes" : true,
 			"hidden" : false,
 			"priority" : 1,
-			"tags" : {
-				
+			"tags" : {				
 			},
 			"slaveDelay" : NumberLong(0),
 			"votes" : 1
@@ -178,7 +177,6 @@ rs.config()
 			"hidden" : false,
 			"priority" : 1,
 			"tags" : {
-				
 			},
 			"slaveDelay" : NumberLong(0),
 			"votes" : 1
@@ -190,8 +188,7 @@ rs.config()
 			"buildIndexes" : true,
 			"hidden" : false,
 			"priority" : 1,
-			"tags" : {
-				
+			"tags" : {	
 			},
 			"slaveDelay" : NumberLong(0),
 			"votes" : 1
@@ -205,7 +202,6 @@ rs.config()
 		"catchUpTimeoutMillis" : -1,
 		"catchUpTakeoverDelayMillis" : 30000,
 		"getLastErrorModes" : {
-			
 		},
 		"getLastErrorDefaults" : {
 			"w" : 1,
@@ -383,7 +379,6 @@ rs.status()
 			"hidden" : false,
 			"priority" : 1,
 			"tags" : {
-				
 			},
 			"slaveDelay" : NumberLong(0),
 			"votes" : 1
@@ -396,7 +391,6 @@ rs.status()
 			"hidden" : false,
 			"priority" : 1,
 			"tags" : {
-				
 			},
 			"slaveDelay" : NumberLong(0),
 			"votes" : 1
@@ -409,7 +403,6 @@ rs.status()
 			"hidden" : false,
 			"priority" : 1,
 			"tags" : {
-				
 			},
 			"slaveDelay" : NumberLong(0),
 			"votes" : 1
@@ -423,7 +416,6 @@ rs.status()
 		"catchUpTimeoutMillis" : -1,
 		"catchUpTakeoverDelayMillis" : 30000,
 		"getLastErrorModes" : {
-			
 		},
 		"getLastErrorDefaults" : {
 			"w" : 1,
