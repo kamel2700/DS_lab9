@@ -3,7 +3,7 @@
 
 
 ![alt text](https://github.com/kamel2700/DS_lab9/blob/master/Screenshot%20from%202019-10-31%2023-01-00.png)
-rs.status():
+rs.status()
 {
 	"set" : "rs0",
 	"date" : ISODate("2019-10-31T19:59:39.262Z"),
@@ -153,8 +153,7 @@ rs.status():
 
 
 
-rs.config():
-
+rs.config()
 {
 	"_id" : "rs0",
 	"version" : 1,
@@ -226,7 +225,7 @@ rs.config():
 
 
 
-rs.status():
+rs.status()
 {
 	"set" : "rs0",
 	"date" : ISODate("2019-10-31T20:10:13.544Z"),
@@ -376,8 +375,7 @@ rs.status():
 
 
 
- rs.config()
- 
+ rs.config() 
 {
 	"_id" : "rs0",
 	"version" : 1,
