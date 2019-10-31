@@ -1,5 +1,6 @@
 # DS_lab9
 
+```
 rs.status()
 {
 	"set" : "rs0",
@@ -128,4 +129,4 @@ rs.status()
 	"operationTime" : Timestamp(1572554586, 1)
 }
 
-
+```
