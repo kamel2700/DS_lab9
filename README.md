@@ -198,6 +198,8 @@ rs.config()
 ```
 
 
+![alt text](https://github.com/kamel2700/DS_lab9/blob/master/Screenshot%20from%202019-10-31%2023-01-00.png)
+
 
 
 ```
@@ -417,3 +419,5 @@ rs.config()
 }
 
 ```
+
+![alt text](https://github.com/kamel2700/DS_lab9/blob/master/Screenshot%20from%202019-10-31%2023-09-18.png)
